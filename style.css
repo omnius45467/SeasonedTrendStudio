@@ -7,9 +7,11 @@ p {
     font-size: 2rem;
     font-weight: 400;
 }
+
 .fullContainer {
     padding: 4rem;
 }
+/********************** Splash Page *****************/
 .mainLogo {
     max-height: 800px;
     max-width: 800px;
@@ -27,7 +29,9 @@ p {
 .sideOne {
     background-color: white;
 }
-
+.side-one-text {
+    position: absolute;
+}
 .splashText {
     z-index: 21;
     color: white;
@@ -56,14 +60,19 @@ p {
     bottom: 0;
     left: 50%;
 }
+
 .secondLine {
     display: block;
     font-size: 3rem;
     text-align: right;
 }
-.studioLink{
+
+.studioLink {
     padding-right: 2rem;
 }
+/**************************** End Splash Page*************************/
+
+/*************************** Navbar ****************************/
 .navbar-inverse {
     background-color: black;
 }
@@ -71,10 +80,14 @@ p {
 .navbar-inverse .navbar-nav>li>a {
     color: ivory;
 }
-
-.newSec {
-    margin-top: 1rem;
+.socialMediaButtons a {
+    margin: .5rem .5rem 0rem .5rem;
 }
+.newSec {
+    margin-top: 2rem;
+}
+/******************************** End Navbar ****************************/
+
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -101,15 +114,17 @@ Image credits: unsplash.com
 
 .fade-carousel .carousel-indicators>li {
     margin: 0 2px;
-    background-color: #f39c12;
-    border-color: #f39c12;
-    opacity: .7;
+    background-color: black;
+    border-color: black;
+    opacity: 1;
 }
 
 .fade-carousel .carousel-indicators>li.active {
     width: 10px;
     height: 10px;
     opacity: 1;
+    background-color: white;
+    border-color: white;
 }
 
 
@@ -247,9 +262,11 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-3 {
     background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
 }
-
+/**************************** End Slides **********************************/
+/**************************** Stylists Cards *******************************/
 .containerHover {
     position: relative;
+    margin: 1rem;
 }
 
 .image {
@@ -309,7 +326,7 @@ Image credits: unsplash.com
     padding: 3rem;
 }
 
-
+/**************************** End Stylist Cards *********************************/
 /********************************/
 
 
@@ -339,54 +356,81 @@ Image credits: unsplash.com
 
 /******************************************************************/
 
-.imageParent {
-    filter: invert(100%);
-    z-index: 5;
-}
 
-.sideOne {
-    z-index: 2;
-}
-
+/******************* Map ***************************/
 #map {
     margin: 2rem 0 2rem 0;
-}
-
-.map {
     height: 80vh;
 }
+/********************* End Map**********************/
 
-.alternatingImages {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.alternatingDiv {
-    height: 100%;
-    color: inherit;
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-.alternateRow {
-    height: 100%;
-    margin: .5rem;
-}
-
-.work>.row:nth-child(odd) {
-    background-color: black;
-    color: white;
-}
-
-.workExamples {
-    font-size: 2rem;
-}
-
+/****************************** Instagram ************/
 .instagramP {
     font-size: 2rem;
 }
+/*********************** End Instagram *****************/
 
-
-.side-one-text {
-    position: absolute;
+/***************footer*************************/
+.footer {
+    position: sticky;
+    bottom: 0;
 }
+
+.footerContainer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+/***************end footer*************************/
+/**************************************************/
+/*************** Testimonials ********************/
+.testimonials blockquote {
+  position: relative;
+  background: white;
+  min-height: 150px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: 1px solid #ecedf1;
+}
+.testimonials blockquote:before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-top: 10px solid #ecedf1;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.testimonials blockquote:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -9px;
+  border-top: 9px solid white;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+}
+
+.testimonials blockquote img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border: 1px solid #ecedf1;
+  background: white;
+  bottom: -65px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+blockquote p.clients-words {
+    font-size: 14px;
+}
+span.clients-name {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/****************** End Testimonials**********************/

@@ -48,7 +48,7 @@
                                         <li><a href="#" class="dropDownContent">One more separated link</a></li>
                                     </ul>
                                 </li>
-                            </ul> <span class="navbar-right"><a class="btn btn-social-icon btn-twitter"> <span class="fa fa-twitter"></span></a> <a href="" class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram"></span></a> <a href="" class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></span>
+                            </ul> <span class="navbar-right socialMediaButtons"><a class="btn btn-social-icon btn-twitter"> <span class="fa fa-twitter"></span></a> <a href="" class="btn btn-social-icon btn-instagram"><span class="fa fa-instagram"></span></a> <a href="" class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></span>
                         </div>
                     </div>
                 </nav>
@@ -119,42 +119,28 @@
                 <br>
                 <br>
                 <div class="row-fluid">
-                    <div class="col-sm-2">
+                    <div class="col-sm-6 col-md-3">
                         <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
                             <div class="overlay">
                                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-6 col-md-3">
                         <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
                             <div class="overlay">
                                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-6 col-md-3">
                         <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
                             <div class="overlay">
                                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
-                        <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
-                            <div class="overlay">
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
-                            <div class="overlay">
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-6 col-md-3">
                         <div class="containerHover"> <img src="images/profile.svg" class="image aboutimg">
                             <div class="overlay">
                                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -167,28 +153,31 @@
             <!--Contact form-->
             <div class="container-fluid newSec">
                 <div class="row-fluid">
-                    <br>
-                    <br>
-                    <br>
-                    <h1>Don't know what you want? Just want to get in touch?</h1>
-                    <p>Feel free to reach us or book an appointment here. Just leave your name, number, or any other way you want us to get back to you, and we'll be as fast as we can.</p>
-                    <form id="book" class="form-inline">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="name" class="form-control" id="name"> </div>
-                        <div class="form-group">
-                            <label for="email">Email address:</label>
-                            <input type="email" class="form-control" id="email"> </div>
-                        <div class="form-group">
-                            <label for="phone">Phone:</label>
-                            <input type="phone" class="form-control" id="phone"> </div>
-                    </form>
-                    <form>
-                        <div class="form-group">
-                            <label for="comment">Comment:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                        </div>
-                    </form>
+                    <div class="col-sm-8">
+                        <br>
+                        <br>
+                        <br>
+                        <h1>Don't know what you want? Just want to get in touch?</h1>
+                        <p>Feel free to reach us or book an appointment here. Just leave your name, number, or any other way you want us to get back to you, and we'll be as fast as we can.</p>
+                        <form id="book" class="form-inline">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="name" class="form-control" id="name"> </div>
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email"> </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="phone" class="form-control" id="phone"> </div>
+                        </form>
+                        <form>
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="15" id="comment"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- will most likely implement a photo here, although the empty space oculd give the eyes a much needed break. WHen supplied with photos for main slider, page will seem to mellow out (no bright colors to be greeted with)-->
                 </div>
             </div>
             <!--        Map-->
@@ -215,6 +204,7 @@
                 </div>
             </div>
             <!--/map-->
+            <!-- Work and or instagram feed-->
             <div class="container-fluid newSec">
                 <div class="row work">
                     <div>
@@ -268,7 +258,40 @@
                     </div>
                 </div>
             </div>
+            <!--/work-->
+            <!--testimonials-->
+            <div class="container newSec">
+                <div class="row">
+                    <h1 class="text-center ">What our clients said about us?</h1>
+                    <hr>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row testimonials">
+                            <div class="col-sm-4">
+                                <blockquote>
+                                    <p class="clients-words">Wow! I love the service and I love the people! Definetly coming back and telling all my friends!</p> <span class="clients-name ">— Jane Doe</span> <img class="img-circle img-thumbnail" src="http://lorempixel.com/400/400/people/1/"> </blockquote>
+                            </div>
+                            <div class="col-sm-4">
+                                <blockquote>
+                                    <p class="clients-words">Awesome work! my hair is #onfleek thanks to them! Check it out! </p> <span class="clients-name ">— Jamie Smith</span> <img class="img-circle img-thumbnail" src="http://lorempixel.com/400/400/people/5/"> </blockquote>
+                            </div>
+                            <div class="col-sm-4">
+                                <blockquote>
+                                    <p class="clients-words">I look amazing, i feel amazing, and I have an amazing new wardrobe to compliment my amazing new nails! I absolutley LOVE seasoned trends!</p> <span class="clients-name ">— Another Satisfied Customer</span> <img class="img-circle img-thumbnail" src="http://lorempixel.com/400/400/people/4/"> </blockquote>
+                            </div>
+                        </div>
+                        <!--/.row-->
+                    </div>
+                    <!--/.col-->
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/testimonials-->
         </div>
+        <!--footer looks ugly, will make it sticky so it doesnt clash with buttons<footer class="footer">
+            <div class="container footerContainer">
+                <p>Seasoned Trends 2017 All RIghts Reserved</p>
+            </div>
+        </footer>-->
         <!--        /examples-->
         <script src="js/smoothscroll.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi1F4ysg5Qx9WmKmRl9XdpdAA4Ouqon4w&callback=myMap"></script>
