@@ -7,7 +7,9 @@ p {
     font-size: 2rem;
     font-weight: 400;
 }
-
+.fullContainer {
+    padding: 4rem;
+}
 .mainLogo {
     max-height: 800px;
     max-width: 800px;
@@ -70,7 +72,9 @@ p {
     color: ivory;
 }
 
-
+.newSec {
+    margin-top: 1rem;
+}
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -349,7 +353,7 @@ Image credits: unsplash.com
 }
 
 .map {
-    height: 400px;
+    height: 80vh;
 }
 
 .alternatingImages {
@@ -382,10 +386,6 @@ Image credits: unsplash.com
     font-size: 2rem;
 }
 
-.dropDownContent {
-    color: black !important;
-    font-size: 2rem;
-}
 
 .side-one-text {
     position: absolute;
