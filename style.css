@@ -6,12 +6,16 @@
 p {
     font-size: 2rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .fullContainer {
-    padding: 4rem;
+    /*padding: 4rem;*/
 }
+
+
 /********************** Splash Page *****************/
+
 .mainLogo {
     max-height: 800px;
     max-width: 800px;
@@ -29,9 +33,11 @@ p {
 .sideOne {
     background-color: white;
 }
+
 .side-one-text {
     position: absolute;
 }
+
 .splashText {
     z-index: 21;
     color: white;
@@ -70,23 +76,50 @@ p {
 .studioLink {
     padding-right: 2rem;
 }
+
+
 /**************************** End Splash Page*************************/
 
+
 /*************************** Navbar ****************************/
-.navbar-inverse {
-    background-color: black;
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: ivory;
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
 }
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    float: none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: black !important;
+    font-weight: 300;
+    font-size: 6rem;
+}
+
 .socialMediaButtons a {
     margin: .5rem .5rem 0rem .5rem;
 }
+
 .newSec {
     margin-top: 2rem;
+    padding: 0 2rem 0 4rem;
 }
+
+
 /******************************** End Navbar ****************************/
+
 
 /*
 Fade content bs-carousel with hero headers
@@ -253,17 +286,28 @@ Image credits: unsplash.com
 
 .fade-carousel .slides .slide-1 {
     background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818);
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 
 .fade-carousel .slides .slide-2 {
     background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 
 .fade-carousel .slides .slide-3 {
     background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+    background-color: grey;
+    background-blend-mode: multiply;
 }
+
+
 /**************************** End Slides **********************************/
+
+
 /**************************** Stylists Cards *******************************/
+
 .containerHover {
     position: relative;
     margin: 1rem;
@@ -326,7 +370,10 @@ Image credits: unsplash.com
     padding: 3rem;
 }
 
+
 /**************************** End Stylist Cards *********************************/
+
+
 /********************************/
 
 
@@ -358,19 +405,28 @@ Image credits: unsplash.com
 
 
 /******************* Map ***************************/
+
 #map {
     margin: 2rem 0 2rem 0;
     height: 80vh;
 }
+
+
 /********************* End Map**********************/
 
+
 /****************************** Instagram ************/
+
 .instagramP {
     font-size: 2rem;
 }
+
+
 /*********************** End Instagram *****************/
 
+
 /***************footer*************************/
+
 .footer {
     position: sticky;
     bottom: 0;
@@ -381,56 +437,79 @@ Image credits: unsplash.com
     background-color: black;
     color: white;
 }
+
+
 /***************end footer*************************/
+
+
 /**************************************************/
+
+
 /*************** Testimonials ********************/
+
 .testimonials blockquote {
-  position: relative;
-  background: white;
-  min-height: 150px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  border: 1px solid #ecedf1;
+    position: relative;
+    background: white;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #ecedf1;
 }
+
 .testimonials blockquote:before {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  margin-left: -10px;
-  border-top: 10px solid #ecedf1;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-top: 10px solid #ecedf1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
+
 .testimonials blockquote:after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  margin-left: -9px;
-  border-top: 9px solid white;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -9px;
+    border-top: 9px solid white;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
 }
 
 .testimonials blockquote img {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  border: 1px solid #ecedf1;
-  background: white;
-  bottom: -65px;
-  left: 50%;
-  margin-left: -25px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border: 1px solid #ecedf1;
+    background: white;
+    bottom: -65px;
+    left: 50%;
+    margin-left: -25px;
 }
 
 blockquote p.clients-words {
     font-size: 14px;
 }
+
 span.clients-name {
-  font-size: 14px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
+
+
 /****************** End Testimonials**********************/
+
+.blackSec {
+    background-color: black;
+    color: white;
+}
+
+p {}
+
+h1 {
+    text-align: center;
+}
