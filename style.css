@@ -104,8 +104,9 @@ p {
     float: none;
     font-family: 'Didact Gothic', sans-serif;
     color: black !important;
-    font-weight: 300;
-    font-size: 6rem;
+    font-weight:lighter;
+    font-size: 5rem;
+    width:100%;
 }
 
 .socialMediaButtons a {
@@ -512,4 +513,11 @@ p {}
 
 h1 {
     text-align: center;
+}
+.navLogo {
+    max-width: 200px;
+}
+
+.navMediaButton {
+    padding: 0 .5rem 0 .5rem;
 }

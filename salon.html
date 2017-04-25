@@ -31,15 +31,22 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Seasoned Trends</a> </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="socialMediaGroup container-fluid">
+                        <div class="innerSocialMediaGroup navbar-left ">
+                            <i class="fa fa-instagram   navMediaButton fa-2x" aria-hidden="true"></i><i class="fa fa-snapchat  navMediaButton fa-2x" aria-hidden="true"></i><i class="fa fa-facebook  navMediaButton fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div><a class="navbar-brand" href="#">SEASONED TRENDS</a>
+                    <div><img class="navLogo" src="images/headLogo.png" alt=""></div>
+                </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse container-fluid" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#" onclick="smoothScroll('.testimonials');"> Connect </a></li>
                         <li><a href="#" onclick="smoothScroll('.map');">Map</a></li>
                         <li><a href="#" onclick="smoothScroll('.contact');">Contact</a></li>
-                        <li><a href="#" onclick="smoothScroll('.fashion');">fashion</a></li>
-<!--                        Been screwing around with social media buttons for half an hour now, they look cool, but throw off the centered positioning. They are not a priority as of yet though.-->
+                        <li><a href="#" onclick="smoothScroll('.fashion');">Fashion</a></li>
+                        <!--                        Been screwing around with social media buttons for half an hour now, they look cool, but throw off the centered positioning. They are not a priority as of yet though.-->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -62,7 +69,8 @@
                     <div class="hero">
                         <hgroup>
                             <h1>Look Great.</h1>
-                            <h3>We can help you look your best, from eyebrow threading, to weaves, to nails, and everything in between</h3> </hgroup>
+                            <h3>We can help you look your best, from eyebrow threading, to weaves, to nails, and everything in between</h3>
+                        </hgroup>
                         <button class="btn btn-hero btn-lg" role="button" onclick="smoothScroll('.work');">View our work.</button>
                     </div>
                 </div>
@@ -71,7 +79,8 @@
                     <div class="hero">
                         <hgroup>
                             <h1>Support local business.</h1>
-                            <h3>Owned and operated in the central valley, contributing to the central valley</h3> </hgroup>
+                            <h3>Owned and operated in the central valley, contributing to the central valley</h3>
+                        </hgroup>
                         <button class="btn btn-hero btn-lg" role="button" onclick="smoothScroll('.map');">Where are we?</button>
                     </div>
                 </div>
@@ -80,7 +89,8 @@
                     <div class="hero">
                         <hgroup>
                             <h1>Relax. Enjoy.</h1>
-                            <h3>Ever wanted the beverly hills treatment? Now you can, in the comfort of your home town.</h3> </hgroup>
+                            <h3>Ever wanted the beverly hills treatment? Now you can, in the comfort of your home town.</h3>
+                        </hgroup>
                         <button class="btn btn-hero btn-lg" role="button" onclick="smoothScroll('.stylist');">Book a stylist today!</button>
                     </div>
                 </div>
@@ -93,6 +103,7 @@
                     behavior: 'smooth'
                 })
             }
+
         </script>
         <!--Intro/stylists-->
         <div class="fullContainer">
@@ -183,18 +194,19 @@
                     <script>
                         function myMap() {
                             var season = {
-                                lat: 36.737094
-                                , lng: -119.792084
+                                lat: 36.737094,
+                                lng: -119.792084
                             };
                             var map = new google.maps.Map(document.getElementById('map'), {
-                                zoom: 16
-                                , center: season
+                                zoom: 16,
+                                center: season
                             });
                             var marker = new google.maps.Marker({
-                                position: season
-                                , map: map
+                                position: season,
+                                map: map
                             });
                         }
+
                     </script>
                 </div>
             </div>
