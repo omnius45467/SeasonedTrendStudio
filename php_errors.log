@@ -1,0 +1,196 @@
+[02-May-2017 21:22:33 UTC] WordPress database error Table 'c9.wp_nf3_forms' doesn't exist for query SELECT `id`, `title`, `created_at` FROM `wp_nf3_forms` made by activate_plugin, include_once('/plugins/ninja-forms/ninja-forms.php'), Ninja_Forms, Ninja_Forms::instance, NF_AJAX_REST_Forms->__construct, NF_Database_FormsController->__construct, NF_Database_FormsController->setFormsData
+[02-May-2017 22:13:11 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[02-May-2017 22:13:11 UTC] PHP Stack trace:
+[02-May-2017 22:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-May-2017 22:13:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[02-May-2017 22:13:11 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[02-May-2017 22:13:11 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[02-May-2017 22:13:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:11 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:11 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[02-May-2017 22:13:11 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[02-May-2017 22:13:11 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[02-May-2017 22:13:11 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:11 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:11 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[02-May-2017 22:13:12 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[02-May-2017 22:13:12 UTC] PHP Stack trace:
+[02-May-2017 22:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-May-2017 22:13:12 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[02-May-2017 22:13:12 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[02-May-2017 22:13:12 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[02-May-2017 22:13:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:12 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:12 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[02-May-2017 22:13:12 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[02-May-2017 22:13:12 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[02-May-2017 22:13:12 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:12 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:12 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[02-May-2017 22:13:12 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[02-May-2017 22:13:12 UTC] PHP Stack trace:
+[02-May-2017 22:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-May-2017 22:13:12 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[02-May-2017 22:13:12 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[02-May-2017 22:13:12 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[02-May-2017 22:13:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:12 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[02-May-2017 22:13:12 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[02-May-2017 22:13:12 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[02-May-2017 22:13:12 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[02-May-2017 22:13:12 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:12 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[02-May-2017 22:13:12 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[03-May-2017 01:00:01 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:01 UTC] PHP Stack trace:
+[03-May-2017 01:00:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:01 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[03-May-2017 01:00:02 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:02 UTC] PHP Stack trace:
+[03-May-2017 01:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[03-May-2017 01:00:02 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:02 UTC] PHP Stack trace:
+[03-May-2017 01:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[03-May-2017 01:00:07 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:07 UTC] PHP Stack trace:
+[03-May-2017 01:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:07 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[03-May-2017 01:00:08 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:08 UTC] PHP Stack trace:
+[03-May-2017 01:00:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:08 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[03-May-2017 01:00:09 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:09 UTC] PHP Stack trace:
+[03-May-2017 01:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:09 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[03-May-2017 01:00:33 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:33 UTC] PHP Stack trace:
+[03-May-2017 01:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:33 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[03-May-2017 01:00:34 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:34 UTC] PHP Stack trace:
+[03-May-2017 01:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:34 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[03-May-2017 01:00:34 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/ubuntu/workspace/wp-content/plugins/ultimate-post-slider/ultimate-post-slider.php on line 309
+[03-May-2017 01:00:34 UTC] PHP Stack trace:
+[03-May-2017 01:00:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[03-May-2017 01:00:34 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[04-May-2017 21:17:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[04-May-2017 21:17:12 UTC] PHP Stack trace:
+[04-May-2017 21:17:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[04-May-2017 21:17:12 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[04-May-2017 21:17:12 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:17:12 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:17:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   6. sfsi_options_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/libs/sfsi_install_uninstall.php:443
+[04-May-2017 21:17:12 UTC] PHP   8. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_options_view.php:146
+[04-May-2017 21:17:12 UTC] PHP   9. in_array() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php:214
+[04-May-2017 21:17:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[04-May-2017 21:17:12 UTC] PHP Stack trace:
+[04-May-2017 21:17:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[04-May-2017 21:17:12 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[04-May-2017 21:17:12 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:17:12 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:17:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   6. sfsi_options_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/libs/sfsi_install_uninstall.php:443
+[04-May-2017 21:17:12 UTC] PHP   8. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_options_view.php:146
+[04-May-2017 21:17:12 UTC] PHP   9. in_array() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php:214
+[04-May-2017 21:17:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[04-May-2017 21:17:12 UTC] PHP Stack trace:
+[04-May-2017 21:17:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[04-May-2017 21:17:12 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[04-May-2017 21:17:12 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:17:12 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:17:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   6. sfsi_options_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:17:12 UTC] PHP   7. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/libs/sfsi_install_uninstall.php:443
+[04-May-2017 21:17:12 UTC] PHP   8. include() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_options_view.php:146
+[04-May-2017 21:17:12 UTC] PHP   9. in_array() /home/ubuntu/workspace/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php:214
+[04-May-2017 21:53:18 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:53:18 UTC] PHP Stack trace:
+[04-May-2017 21:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:53:18 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:53:18 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:53:18 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:53:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:53:18 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:53:18 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:53:18 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[04-May-2017 21:53:18 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:53:18 UTC] PHP Stack trace:
+[04-May-2017 21:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:53:18 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:53:18 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:53:18 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:53:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:53:18 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:53:18 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:53:18 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[04-May-2017 21:53:18 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:53:18 UTC] PHP Stack trace:
+[04-May-2017 21:53:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:53:18 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:53:18 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:53:18 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:53:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:53:18 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:53:18 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:53:18 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:53:18 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:53:18 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[04-May-2017 21:55:01 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:55:01 UTC] PHP Stack trace:
+[04-May-2017 21:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:55:01 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:55:01 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:55:01 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:55:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:55:01 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:55:01 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:55:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[04-May-2017 21:55:01 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:55:01 UTC] PHP Stack trace:
+[04-May-2017 21:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:55:01 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:55:01 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:55:01 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:55:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:55:01 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:55:01 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:55:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[04-May-2017 21:55:01 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php on line 48
+[04-May-2017 21:55:01 UTC] PHP Stack trace:
+[04-May-2017 21:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 21:55:01 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[04-May-2017 21:55:01 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[04-May-2017 21:55:01 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[04-May-2017 21:55:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   6. NF_AJAX_Controllers_Submission->submit() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[04-May-2017 21:55:01 UTC] PHP   7. NF_AJAX_Controllers_Submission->process() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:60
+[04-May-2017 21:55:01 UTC] PHP   8. apply_filters() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/AJAX/Controllers/Submission.php:277
+[04-May-2017 21:55:01 UTC] PHP   9. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[04-May-2017 21:55:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
+[04-May-2017 21:55:01 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
