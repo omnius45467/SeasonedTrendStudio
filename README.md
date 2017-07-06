@@ -1,12 +1,4 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
 Welcome to your WordPress website on Cloud9 IDE!
 
 To get you started, we've already...
@@ -21,11 +13,10 @@ To get you started, we've already...
 
 And now you are ready to configure your WordPress admin interface!
 
-Happy coding!
-The Cloud9 IDE team
+## Databases
 
+You might need to change the database. There is some great information on how Cloud9 does this [here](https://community.c9.io/t/setting-up-mysql/1718).
 
-## Support & Documentation
+You can find passwords and usernames in the wp-config.php if it is present, or search through your web host for information on SQL usernames.
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Inside this repository is an instance of [Search and Replace](https://github.com/interconnectit/Search-Replace-DB). You can view their documentation for more information.
