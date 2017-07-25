@@ -41,11 +41,13 @@ final class NF_MergeTags_WP extends NF_Abstracts_MergeTags
          *
          * Otherwise, we use the parent's method.
          */
-        
+
         /**
          * {post_meta:foo} --> meta key is 'foo'
          */
-        preg_match_all("/{post_meta:(.*?)}/", $subject, $matches );
+        if (is_string($subject)) {
+            preg_match_all("/{post_meta:(.*?)}/", $subject, $matches );
+        }
 
         // If not matching merge tags are found, then return early.
         if( empty( $matches[0] ) ) return parent::replace( $subject );
@@ -69,7 +71,7 @@ final class NF_MergeTags_WP extends NF_Abstracts_MergeTags
             $subject = str_replace( $search, $this->post_meta[ $meta_key ], $subject );
         }
 
-        return $subject;
+      return parent::replace( $subject );
     }
 
     protected function post_id()
@@ -181,7 +183,7 @@ final class NF_MergeTags_WP extends NF_Abstracts_MergeTags
 
         return ( $current_user ) ? $current_user->user_url : '';
     }
-    
+
     protected function admin_email()
     {
         return get_option( 'admin_email' );

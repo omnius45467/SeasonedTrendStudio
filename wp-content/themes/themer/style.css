@@ -210,7 +210,10 @@ nav.navbar.shrink .navbar-toggle {
 
 /* footer */
 
-.footer {}
+.footer {
+	margin-top: 100px;
+}
+
 
 .btnContainer {
 	display: flex;
@@ -227,7 +230,7 @@ nav.navbar.shrink .navbar-toggle {
 
 .blogPost>h2,
 p {
-	text-align: left;
+	text-align: left;*/
 }
 
 

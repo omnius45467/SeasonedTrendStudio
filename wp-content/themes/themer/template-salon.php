@@ -157,7 +157,7 @@ $the_query = new WP_Query( $args );
                         	<?php
                         	// WP_Query arguments
 $args = array(
-	'post_type'              => array( 'testimonial' ), 'posts_per_page' => 3
+	'post_type' => array( 'testimonial' ), 'posts_per_page' => 3
 );
 
 // The Query

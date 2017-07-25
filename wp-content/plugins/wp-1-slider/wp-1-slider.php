@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name: WP 1 Slider
  * Plugin URI:  http://accesspressthemes.com/wordpress-plugins/
  * Description: An ultimate WordPress slider Plugin | Many layout | Many useful features | Many configuration options | Easy to use!
- * Version:     1.1.6
+ * Version:     1.1.8
  * Author:      AccessPress Themes
  * Author URI:  http://accesspressthemes.com/
  * License:     GPL2
@@ -16,7 +16,7 @@ defined('ABSPATH') or die("No script kiddies please!");
   * Declartion of necessary constants for plugin
   * */
 require_once('inc/wp1s-resizer.php');
-defined( 'WP1S_VERSION' ) or define( 'WP1S_VERSION', '1.1.6' ); //plugin version
+defined( 'WP1S_VERSION' ) or define( 'WP1S_VERSION', '1.1.8' ); //plugin version
 defined( 'WP1S_TD' ) or define( 'WP1S_TD', 'wp-1-slider' ); //plugin's text domain
 defined( 'WP1S_IMG_DIR' ) or define( 'WP1S_IMG_DIR', plugin_dir_url( __FILE__ ) . 'images' ); //plugin image directory
 defined( 'WP1S_JS_DIR' ) or define( 'WP1S_JS_DIR', plugin_dir_url( __FILE__ ) . 'js' );  //plugin js directory

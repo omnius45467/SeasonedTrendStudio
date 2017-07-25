@@ -37,14 +37,16 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <div class="socialMediaGroup container-fluid">
-                        <div class="innerSocialMediaGroup navbar-left ">
-                            <a href="https://www.instagram.com/seasonedtrendsstudio/"><i class="fa fa-instagram   navMediaButton fa-2x" aria-hidden="true"></i></a><a href="https://snapchat.com/add/seasonedtrendsstudio"><i class="fa fa-snapchat  navMediaButton fa-2x" aria-hidden="true"></i></a><a href="https://www.facebook.com/seasonedtrendsstudio/"><i class="fa fa-facebook  navMediaButton fa-2x" aria-hidden="true"></i></a>
-                        </div>
-                    </div><a class="navbar-brand" href="#">SEASONED TRENDS</a>
-                    <div><img class="navLogo  hidden-sm hidden-xs" src="<?php echo get_header_image(); ?>" alt=""></div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         </button>            
                 </div>
+                
+                <h1>Seasoned Trends</h1>
+                
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse container-fluid" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
@@ -56,8 +58,7 @@
             <!-- /.container-fluid -->
         </nav>
 							<!-- /nav -->
-						<div class="col-md-12">
-						</div>
-					</div>
+					</div> <!--/row-->
 			</header>
 			<!-- /header -->
+		</div>

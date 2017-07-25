@@ -181,7 +181,18 @@ th {
 
 .widget-forms .sortable {
   cursor: pointer;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: -5px; }
+  .widget-forms .sortable:hover:after {
+    content: '\f0dc'; }
+  .widget-forms .sortable:after {
+    font-family: 'FontAwesome';
+    margin-left: 5px;
+    position: absolute; }
+  .widget-forms .sortable.sorted-asc:after {
+    content: "\f0de"; }
+  .widget-forms .sortable.sorted-desc:after {
+    content: "\f0dd"; }
 
 .widget-forms header {
   display: -ms-flexbox;
@@ -284,6 +295,10 @@ jBox
   .jBox-Modal .jBox-content {
     padding: 10px;
     width: 100%; }
+  .jBox-Modal .buttons::after {
+    clear: none;
+    content: "";
+    display: block; }
 
 /*
 Loading Spinner

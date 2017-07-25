@@ -194,3 +194,4 @@
 [04-May-2017 21:55:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:300}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
 [04-May-2017 21:55:01 UTC] PHP  11. NF_MergeTags_WP->replace() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:300
 [04-May-2017 21:55:01 UTC] PHP  12. preg_match_all() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/includes/MergeTags/WP.php:48
+[20-Jul-2017 19:03:40 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wp-content/themes/storefront/inc/storefront-template-hooks.php on line 39

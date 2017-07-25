@@ -4,7 +4,7 @@ Tags: slider, photo slider, image slider, bx slider, responsive slider, thumbnai
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.7
-Stable tag: 1.1.6
+Stable tag: 1.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -210,6 +210,12 @@ Yes, you can have full width slider but make sure that your entry-content is als
 
 
 == Changelog ==
+
+= 1.1.8 =
+* Fixed few bug.
+
+= 1.1.7 =
+* Removed unwanted code and js file.
 
 = 1.1.6 =
 * Fixed slide count number issues.

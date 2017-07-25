@@ -1,12 +1,20 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+				
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
+				<div class="socialMediaGroup container-fluid">
+
+                    <div class="innerSocialMediaGroup navbar-right ">
+                        <a href="https://www.instagram.com/seasonedtrendsstudio/"><i class="fa fa-instagram   navMediaButton fa-2x" aria-hidden="true"></i></a><a href="https://snapchat.com/add/seasonedtrendsstudio"><i class="fa fa-snapchat  navMediaButton fa-2x" aria-hidden="true"></i></a><a href="https://www.facebook.com/seasonedtrendsstudio/"><i class="fa fa-facebook  navMediaButton fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    
+						<p>
+							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
+						</p>
 				<!-- /copyright -->
+
+				
+                </div>
 
 			</footer>
 			<!-- /footer -->
